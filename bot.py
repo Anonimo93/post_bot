@@ -21,10 +21,10 @@ try:
     twitch_client_secret = post_bot.twitch_client_secret
 except:
     import os
-    id_canal = os.getenv('ID_CANAL')
-    API_TOKEN = os.getenv('TOKEN')
-    support = os.getenv('SUPPORT')
-    dbaddress = os.getenv('DATABASE_URL')
+    id_canal = os.getenv('-1001197629096')
+    API_TOKEN = os.getenv('1957831207:AAH4wmUQO64uVeCo306THmUQkhpDWRbN5PA')
+    support = os.getenv('-1001545241990')
+    dbaddress = os.getenv('postgres://bftnvotqxeycbi:056194c1e9cc61515474d7fbc6f0554222780b61a5aec3f81250220927c4ebbd@ec2-107-21-10-179.compute-1.amazonaws.com:5432/d506tpc8jaq538')
     twitch_client_id = os.getenv('TWITCH_CLIENT_ID')
     twitch_client_secret = os.getenv('TWITCH_CLIENT_SECRET')
 
